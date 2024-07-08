@@ -16,3 +16,4 @@ Currently, two official plugins are available:
 # new-react
 # new-react-1
 # new-react-1
+# new-react-1
