@@ -1,7 +1,8 @@
 import { LuShoppingCart, LuHeart, LuUserCircle } from "react-icons/lu"
 import { PiSneakerBold } from "react-icons/pi";
-
 import "./Navbar.css"
+
+
 function Navbar() {
   return <header className="header">
     <nav className="nav container">

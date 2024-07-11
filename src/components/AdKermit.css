@@ -1,0 +1,9 @@
+.kermit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+}
+.kermit img{
+    width: 1280px;
+}
