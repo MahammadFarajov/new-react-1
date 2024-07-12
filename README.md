@@ -19,3 +19,4 @@ Currently, two official plugins are available:
 # new-react-1
 # react-proj
 # react-proj
+# react-proj
