@@ -6,12 +6,12 @@ const Card = (props) => {
         <div className="card">
             <div className="card-top">
                 <img src={shoe} alt="" />
-                <p>{props.title}</p>
+                <p>{props.productTitle}</p>
             </div>
             <div className="card-bottom">
                 <div className="text">
                     <h4>Price:</h4>
-                    <h2>{props.price}</h2>
+                    <h2>{props.productPrice}</h2>
                 </div>
                 <button className="btn">+</button>
             </div>

@@ -41,13 +41,11 @@ const Productcards = () => {
   return (
     <div>
       <div className="cards container">
-        {products.map((product, index) => {
-          return (
+        {products.map((product, index) => (
             <Card key={index}
-            productitle = {product.title}
-            productprice = {product.price}/>
-          );
-          })}
+            productitle = {product.producTitle}
+            productprice = {product.productprice}/>
+          ))}
       </div>
     </div>
   )
