@@ -6,36 +6,36 @@ import "./Productcards.css"
 const Productcards = () => {
   let products = [
     {
-      productitle:"Мужские Кроссовки Nike Blazer Mid Suede",
-      productprice:"12 999 руб."
+      productTitle:"Мужские Кроссовки Nike Blazer Mid Suede",
+      productPrice:"12 999 руб."
     },
     {
-      productitle:"Мужские Кроссовки Nike Air Max 270",
-      productprice:"8 999 руб."
+      productTitle:"Мужские Кроссовки Nike Air Max 270",
+      productPrice:"8 999 руб."
     },
     {
-      productitle:"Мужские Кроссовки Nike Blazer Mid Suede",
-      productprice:"9 999 руб."
+      productTitle:"Мужские Кроссовки Nike Blazer Mid Suede",
+      productPrice:"9 999 руб."
     },
     {
-      productitle:"Кроссовки Puma X Aka Boku Future Rider",
-      productprice:"15 999 руб."
+      productTitle:"Кроссовки Puma X Aka Boku Future Rider",
+      productPrice:"15 999 руб."
     },
     {
-      productitle:"Мужские Кроссовки Under Armour Curry 8",
-      productprice:"11 999 руб."
+      productTitle:"Мужские Кроссовки Under Armour Curry 8",
+      productPrice:"11 999 руб."
     },
     {
-      productitle:"Мужские Кроссовки Nike Kyrie 7",
-      productprice:"13 999 руб."
+      productTitle:"Мужские Кроссовки Nike Kyrie 7",
+      productPrice:"13 999 руб."
     },
     {
-      productitle:"Мужские Кроссовки Jordan Air Jordan 11",
-      productprice:"7 999 руб."
+      productTitle:"Мужские Кроссовки Jordan Air Jordan 11",
+      productPrice:"7 999 руб."
     },
     {
-      productitle:"Мужские Кроссовки Nike LeBron XVIII",
-      productprice:"10 999 руб."
+      productTitle:"Мужские Кроссовки Nike LeBron XVIII",
+      productPrice:"10 999 руб."
     },
   ]
   return (
@@ -43,8 +43,8 @@ const Productcards = () => {
       <div className="cards container">
         {products.map((product, index) => (
             <Card key={index}
-            productitle = {product.producTitle}
-            productprice = {product.productprice}/>
+            productTitle = {product.productTitle}
+            productPrice = {product.productPrice}/>
           ))}
       </div>
     </div>
