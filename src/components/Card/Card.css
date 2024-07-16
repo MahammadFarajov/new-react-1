@@ -29,13 +29,20 @@
     justify-content: space-between;
     align-items: center;
 }
-.card .card-bottom .btn {
+.card button {
     border-radius: 8px;
     border: 1px solid #F2F2F2;
     padding: 10px;
     background-color: white;
     color: #bebebe;
+    width: fit-content;
 
+}
+.card #heart.selected{
+    background: #FEF0F0;
+}
+.card .card-bottom button.sellected{
+    background: linear-gradient(180deg, #89F09C 0%, #3CC755 100%);
 }
 .card .card-bottom .text{
     display: flex;
