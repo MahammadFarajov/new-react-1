@@ -1,16 +1,20 @@
+import { useState } from "react"
 import AdKermit from "./components/AdKermit"
 import Productcards from "./components/Card/Productcards"
+import Cart from "./components/Cart/Cart"
 import Navbar from "./components/Navbar"
-import Shoes from "./components/Shoes"
 
 function App() {
-
+  const [openCart, setisOpenCart] = useState(false)
+  const handleOpenCart = () => {
+    setisOpenCart(!openCart)
+  }
   return (
     <>
-      <Navbar />
+      <Navbar handleOpenNav={handleOpenCart}/>
       <AdKermit />
-      <Shoes />
       <Productcards />
+      <Cart isOpen = {openCart}/>
     </>
   )
 }

@@ -5,3 +5,26 @@
     padding-top: 40px;
     padding-inline: 30px;
 }
+.main{
+    margin-top: 39px;
+}
+.main-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-top h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.73px;
+}
+.main-top input{
+    border-radius: 10px;
+    padding: 15px 46px;
+    border: 1px solid #F3F3F3;
+    color: #C4C4C4;
+    position: relative;
+}
+.main-top input::placeholder{
+    color: #cecbcb;
+}

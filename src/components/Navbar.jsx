@@ -3,7 +3,7 @@ import { PiSneakerBold } from "react-icons/pi";
 import "./Navbar.css"
 
 
-function Navbar() {
+function Navbar( {handleOpenNav} ) {
   return <header className="header">
     <nav className="nav container">
         <div className="nav-left">
@@ -14,7 +14,7 @@ function Navbar() {
             </div>
         </div>
         <ul className="nav-right">
-            <div className="link"> <LuShoppingCart size={23} /> <li><a href="#">1205 руб.</a></li></div>
+            <div onClick={handleOpenNav} className="link"> <LuShoppingCart size={23} /> <li><a href="#">1205 руб.</a></li></div>
             <div className="link"> <LuHeart size={23} /> <li><a href="#">Закладки</a></li></div>
             <div className="link"> <LuUserCircle size={23} /> <li><a href="#">Профиль</a></li></div>
         </ul>
